@@ -8,7 +8,7 @@ Google API PHP Client : https://github.com/google/google-api-php-client
 
 1. Copy `Google_analytics.php` file into your `/application/libraries/` directory
 
-2. Copy directory from Google-PHP-API-Client into `/application/third_party/`, and rename it to `google-api`
+2. Rename directory from Google-PHP-API-Client as `google-api` and copy into `/application/third_party/`
 
 ### Usage on Controller
 

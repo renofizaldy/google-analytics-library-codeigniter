@@ -1,12 +1,13 @@
 # google-analytics-library-codeigniter
 Simple google analytics library to use in CodeIgniter 3
 
-Copy 'Google_analytics.php' file to your '/application/libraries' directory
+Copy 'Google_analytics.php' file into your '/application/libraries' directory
 
 Set Google-API-PHP-Client directory location inside 'Google_analytics.php'
 
-Usage on Controller: 
+## Usage on Controller
 
+```html
 $this->load->library('google_analytics');
 
 $account = array('email'='YOUR_GA_EMAIL', 'key'=>'YOUR_GA_P12_FILE'); // Required
@@ -18,3 +19,4 @@ $metric = "GA_API_PARAMETER"; // Required -- See parameter and usage on Google A
 $dimension = array(); // Optional -- See parameter and usage on Google Analytics API
 
 $this->google_analytics->getResult($account, $time_range, $metric);
+```

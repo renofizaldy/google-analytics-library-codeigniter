@@ -9,12 +9,12 @@ Usage on Controller:
 
 $this->load->library('google_analytics');
 
-$account = array('email'='YOUR_GA_EMAIL', 'key'=>'YOUR_GA_P12_FILE');
+$account = array('email'='YOUR_GA_EMAIL', 'key'=>'YOUR_GA_P12_FILE'); // Required
 
-$time_range = array('start'=>'YYYY-MM-DD', 'end'=>'YYYY-MM-DD');
+$time_range = array('start'=>'YYYY-MM-DD', 'end'=>'YYYY-MM-DD'); // Required
 
-$metric = (string) GA_API_PARAMETER;
+$metric = "GA_API_PARAMETER"; // Required -- See parameter and usage on Google Analytics API
 
-$dimension = array(); // Optional
+$dimension = array(); // Optional -- See parameter and usage on Google Analytics API
 
 $this->google_analytics->getResult($account, $time_range, $metric);

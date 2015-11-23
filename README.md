@@ -10,7 +10,7 @@ Google API PHP Client : https://github.com/google/google-api-php-client
 
 2. Rename directory from Google-PHP-API-Client as `google-api` and copy into `/application/third_party/`
 
-### Usage on Controller:
+### Usage:
 
 ```html
 $this->load->library('google_analytics');

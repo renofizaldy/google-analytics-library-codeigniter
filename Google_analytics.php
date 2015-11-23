@@ -79,7 +79,7 @@ class Google_analytics {
 
 			$time_range = array('start'=>'YYYY-MM-DD', 'end'=>'YYYY-MM-DD');
 
-			$metric = (string) GA_API_PARAMETER;
+			$metric = 'GA_API_PARAMETER';
 
 			$dimension = array();
 		*/
